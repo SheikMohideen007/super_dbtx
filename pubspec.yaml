@@ -1,7 +1,9 @@
 name: super_dbtx
 description: "Super DBTX is a powerful and lightweight wrapper over Sqflite that provides a fully structured repository pattern, safe database execution, schema utilities, table/column operations, migrations, logging, bulk inserts, pagination, and SQLCipher encryption support. It simplifies SQLite usage in Flutter with a clean and production-ready architecture."
 version: 0.0.1
-homepage: null
+homepage: https://github.com/SheikMohideen007/super_dbtx
+repository: https://github.com/SheikMohideen007/super_dbtx
+issue_tracker: https://github.com/SheikMohideen007/super_dbtx/issues
 
 environment:
   sdk: ^3.9.2
@@ -12,7 +14,7 @@ dependencies:
     sdk: flutter
   path: ^1.9.1
   sqflite: ^2.4.2
-  sqflite_common_ffi: ^2.3.5
+  sqflite_common_ffi: ^2.3.5 #For testing purpose only
 
 dev_dependencies:
   flutter_lints: ^5.0.0
